@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cf17cf4.css",
+    "main.js": "/static/js/main.3b01f147.js",
+    "static/js/787.c4a768b1.chunk.js": "/static/js/787.c4a768b1.chunk.js",
+    "static/media/team.svg": "/static/media/team.1e88b7dba08fbde12fb0ee5b219e6f43.svg",
+    "static/media/Article1.png": "/static/media/Article1.0a398dc575685cb8df3e.png",
+    "static/media/Article2.png": "/static/media/Article2.e066fe09ef267e728c15.png",
+    "static/media/CodeSnippet.svg": "/static/media/CodeSnippet.1d5e0c6888129dc8a5d754a986ce0066.svg",
+    "static/media/ShootingStar.svg": "/static/media/ShootingStar.24f7492ca00d7cfa87eedc1ad27e7034.svg",
+    "static/media/Phone.svg": "/static/media/Phone.85ea602e753b4dbae944a433cbd69f4e.svg",
+    "static/media/quotes.svg": "/static/media/quotes.54931a08a5f56a84a78d4e8bf831f720.svg",
+    "static/media/MerkLogo.svg": "/static/media/MerkLogo.f0df49a722241dce795218eabec48ab4.svg",
+    "index.html": "/index.html",
+    "static/media/Email.svg": "/static/media/Email.8b27c736951c1099df36cc9dc82fc6cf.svg",
+    "static/media/ChevronDown.svg": "/static/media/ChevronDown.168db0bd8b6dfb504809853974dd50c1.svg",
+    "static/media/ChevronLeft.svg": "/static/media/ChevronLeft.f09a190ca2700a16589296b8e052108b.svg",
+    "static/media/ChevronRight.svg": "/static/media/ChevronRight.d6866e8db69f7ee3409c224294195db2.svg",
+    "main.9cf17cf4.css.map": "/static/css/main.9cf17cf4.css.map",
+    "main.3b01f147.js.map": "/static/js/main.3b01f147.js.map",
+    "787.c4a768b1.chunk.js.map": "/static/js/787.c4a768b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf17cf4.css",
+    "static/js/main.3b01f147.js"
+  ]
+}
