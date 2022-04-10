@@ -1,0 +1,15 @@
+.button{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-items: center;
+    
+    text-decoration: none;
+    cursor: pointer;
+    .button_title{
+        position: absolute;
+        font-size: 3em;
+        font-weight: bold;
+        color: white;
+    }
+}

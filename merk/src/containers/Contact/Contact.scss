@@ -1,0 +1,117 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 8em;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+    }
+}
+
+.contact-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    gap: 6em;
+
+    .contact-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 4em;
+
+        .contact-detail {
+            p {
+                font-size: 2.5em;
+                line-height: 1.5em;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            h3 {
+                font-size: 3em;
+                line-height: 1.5em;
+                font-weight: 700;
+            }
+        }
+    }
+
+    h5 {
+        color: var(--sea-green-text);
+        font-size: 3em;
+        line-height: 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+    }
+
+    h1 {
+        font-size: 6em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+}
+
+.contact-form {
+    margin: 0 5em;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 5em;
+    gap: 3em;
+
+    input[type='text'], textarea {
+        background: transparent;
+        border: none;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-size: 3.2em;
+        line-height: 1.1em;
+        color: white;
+        padding: 0.5em;
+    }
+
+    .contact-form-input-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2em;
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1.5em;
+
+            label{
+                font-size: 2.2em;
+                line-height: 1.1em;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            textarea{
+                overflow: hidden;
+                resize: none;
+                height: 7em;
+            }
+        }
+    }
+
+    @media (max-width:900px) {
+       width: 100%;
+    }
+}

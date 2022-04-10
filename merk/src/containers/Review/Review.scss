@@ -1,0 +1,44 @@
+.review{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:4em;
+    h1{
+        color: #618DFF;
+        font-size: 4em;
+        font-weight: 600;
+
+    }
+    .review-headline{
+        width: 30%;        
+    }
+
+    p{
+        font-size: 2.5em;
+        text-align: center;
+        line-height: 2.4em;
+    }
+    @media (max-width:900px) {
+        width: 80%;
+
+        .review-headline{
+            width: 100%;        
+        }
+      
+    }
+}
+
+.reviews{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10em;
+
+    @media (max-width:900px) {
+        flex-direction: column;
+        gap: 10em;
+    }
+
+}

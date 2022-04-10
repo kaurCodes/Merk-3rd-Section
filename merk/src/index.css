@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@600;700&display=swap');
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bgColor: linear-gradient(90deg, #003378 0%, #05104B 100%);
+  --blue-text: #618DFF;
+  --sea-green-text:#16FCD2;
+
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6px;
+  color: white;
+}

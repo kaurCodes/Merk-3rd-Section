@@ -1,0 +1,12 @@
+.dropdown-active{
+    padding: 1em 2em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 20px;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 1em;
+}

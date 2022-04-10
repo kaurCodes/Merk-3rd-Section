@@ -1,0 +1,132 @@
+.testimonial__card-normal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    width: 50%;
+    max-width: 450px;
+
+    min-width: 450px;
+    padding: 2em 4em;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(#FFFFFF, 0.1);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+
+
+    .testimonial-review {
+        font-size: 1.6em;
+        line-height: 2.5em;
+        text-align: center;
+    }
+
+    .testimonial-date {
+        width: 100%;
+
+        p {
+            font-size: 1.6em;
+            line-height: 2em;
+            color: #888888;
+            text-align: left;
+        }
+    }
+
+    .testimonial-client {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 2.2em;
+            line-height: 2em;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            font-size: 1.6em;
+            line-height: 2em;
+            font-weight: 300;
+            color: #B6BCCC;
+        }
+    }
+
+    @media (max-width:900px) {
+        min-width: 320px;
+    }
+}
+
+
+.testimonial__card-infocus {
+    align-self: center;
+    display: flex;
+    position: absolute;
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    width: 30%;
+    max-width: 450px;
+    padding: 2em 4em;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 0.5px solid;
+    min-width: 450px;
+    z-index: 10;
+
+    border: linear-gradient(334.88deg, #FFFFFF -17.63%, rgba(40, 26, 200, 0) 117.63%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+
+
+    .testimonial-review {
+        font-size: 2.1em;
+        line-height: 3.5em;
+        text-align: center;
+    }
+
+    .testimonial-date {
+        width: 100%;
+
+        p {
+            font-size: 2em;
+            line-height: 2em;
+            color: #888888;
+            text-align: left;
+        }
+    }
+
+    .testimonial-client {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 2.8em;
+            line-height: 2em;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            font-size: 2em;
+            line-height: 2em;
+            font-weight: 300;
+            color: #B6BCCC;
+        }
+    }
+
+    @media (max-width:900px) {
+        position: relative;
+        min-width: 320px;
+    }
+}

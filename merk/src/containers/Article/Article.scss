@@ -1,0 +1,112 @@
+.article__section{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -55em;
+    margin-left: 5em;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 0px;
+    }
+}
+
+.article__section-img{
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+    position: absolute;
+    height: 60em;
+    @media screen and (max-width:900px) {
+        height: 30%;
+        width: 90%;
+    }
+}
+
+.article__section-description{
+   
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    padding-left: 80em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    margin-left: 10%;
+    margin-top: 5%;
+    gap:15em;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+        width: 90%;
+        margin: 0;
+        margin-top: 15%;
+        padding: 4em;
+        padding-top: 55%;
+    }
+}
+
+.article__section-navigators{
+    flex: 1;
+ display: flex;
+ align-items: flex-end;
+ height: 100%;
+ gap: 2em;
+
+ div{
+     height: 40px;
+     width: 40px;
+     border-radius: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+
+ .active{
+    border: 1px solid white;
+}
+
+.disabled{
+   background: rgba(255, 255, 255, 0.04)
+}
+ 
+}
+
+.article__section-description-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:5em;
+    
+    padding-bottom: 5em;
+
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: 3.5em;
+        border-bottom: 1px solid white;
+        color: white;
+        line-height: 123%;
+        margin-bottom: 1em;
+    }
+    h1{
+        line-height: 123%;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    h2{
+        line-height: 123%;
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+
+    @media screen and (max-width:900px) {
+        padding: 0;
+    }
+}

@@ -1,0 +1,50 @@
+.team
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 5em;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+    }
+}
+
+.team-description{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5em;
+    h5{
+        text-transform: uppercase;
+        font-size: 3em;
+        line-height: 2em;
+        color: var(--blue-text);
+    }
+
+    h1{
+        font-size: 5em;
+        line-height: 1.5em;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 3em;
+        line-height: 2em;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.team-graphic{
+    flex: 1;
+
+    @media screen and (max-width:900px) {
+        svg{
+            width: 100%;
+            height: 300px;
+        }
+    }
+}

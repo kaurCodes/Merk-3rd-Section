@@ -1,0 +1,44 @@
+.thirdSection{
+    background: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding-bottom: 12em;
+    overflow: hidden;
+
+    @media screen and (max-width:900px) {
+       gap: 8rem;
+    }
+}
+
+.shooting-star{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin:-20rem 0;
+
+}
+
+.star-1 {
+    justify-content: flex-end;
+    margin-right: -40rem;
+    margin-top: -12rem;
+    margin-bottom: -20em;
+}
+
+.star-2{
+    margin-top: -23rem;
+    transform: rotate(180deg);
+}
+
+.star-3{
+    margin-top: -20rem;
+    transform: rotate(180deg);
+    margin-left: -130rem;
+
+    @media (max-width:900px) {
+        margin-left:3rem
+    }
+}
